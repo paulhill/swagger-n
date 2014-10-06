@@ -1,9 +1,9 @@
-swaggerN
+swagger-n
 ========
 
-swaggerN is a very simple express 4.x routing middleware that takes a swagger 2.x specification and a mapping of operationId to handler function and configures express routes.
+swagger-n is a very simple express 4.x routing middleware that takes a swagger 2.x specification and a mapping of operationId to handler function and configures express routes.
 
-swaggerN casts parameters defined in the swagger specification to the appropriate types and exposes them at req.swagger
+swagger-n casts parameters defined in the swagger specification to the appropriate types and exposes them at req.swagger
 
 Like so:
 
@@ -13,7 +13,7 @@ Like so:
 }
 ```
 
-## How to use swaggerN
+## How to use swagger-n
 
 Define your swagger 2.x spec:
 
@@ -45,9 +45,14 @@ Define your handler mapping:
 }
 ```
 
-Add the swaggerN router to express providing it with your spec and handler mapping
+Add the swagger-n router to express providing it with your spec and handler mapping
 
 ```JavaScript
+// HERE
+var swagger = require("swagger-n");
+
+...
+
 var app = express();
 
 app.use(bodyParser.json());
@@ -55,6 +60,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 ...
 // HERE
-app.use(swaggerN.router(spec, handlers));
+app.use(swagger.router(spec, handlers));
 ...
 ```

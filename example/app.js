@@ -2,7 +2,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var swaggerN = require("swaggerN");
+var swagger = require("swagger-n");
 
 var spec = require('./spec');
 var handlers = require('./handlers');
@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'node_modules/swagger-ui/dist')));
 
 
 // THIS IS ALL THERE IS TO IT
-app.use(swaggerN.router(spec, handlers));
+app.use(swagger.router(spec, handlers));
 
 
 

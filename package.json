@@ -1,5 +1,5 @@
 {
-	"name": "swaggerN",
+	"name": "swagger-n",
 	"version": "0.0.1-alpha.1",
 	"description": "A very simple express 4.x, swagger 2.x routing middleware",
 	"author": "Paul Hill <paul.william.hill@gmail.com>",
