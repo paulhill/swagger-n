@@ -13,7 +13,7 @@ Like so:
 }
 ```
 
-# How to use swaggerN
+## How to use swaggerN
 
 Define your swagger 2.x spec:
 
