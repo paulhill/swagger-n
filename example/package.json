@@ -9,6 +9,7 @@
     "body-parser": "1.8.x",
     "cookie-parser": "1.3.x",
     "lodash": "2.4.x",
-    "swagger-n": "~0.0.1-alpha"
+    "swagger-n": "~0.0.1-alpha",
+    "swagger-ui": "~2.1.0-alpha"
   }
 }
