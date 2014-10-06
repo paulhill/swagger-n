@@ -1,0 +1,16 @@
+{
+	"name": "swaggerN",
+	"version": "0.0.1-alpha.1",
+	"description": "A very simple express 4.x, swagger 2.x routing middleware",
+	"author": "Paul Hill <paul.william.hill@gmail.com>",
+	"dependencies": {
+		"express": "4.9.x",
+		"lodash": "2.4.x"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nodejitsu/browsenpm.org"
+	},
+	"keywords": ["swagger", "express"],
+	"license": "WTFPL"
+}
