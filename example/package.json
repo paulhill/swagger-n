@@ -10,6 +10,6 @@
     "cookie-parser": "1.3.x",
     "lodash": ">=4.17.11",
     "swagger-n": "~0.0.1-alpha",
-    "swagger-ui": "~2.1.0-alpha"
+    "swagger-ui": "~3.25.0"
   }
 }
